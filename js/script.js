@@ -48,7 +48,7 @@ $(document).ready(function(){
 	$.date = function(dateObject) {
     var d = new Date(dateObject);
     var day = d.getDate();
-    var month = d.getMonth() + 1;
+    var month = d.getMonth();
     var year = d.getFullYear();
     if (day < 10) {
         day = "0" + day;
