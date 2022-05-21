@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T02:07:41.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="wH-WRF7YW22vNUS6-LkQ" version="18.1.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-05-21T02:31:38.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="W7KR6fWN87oDviHs24Rx" version="18.1.1" type="github" pages="2">
   <diagram id="KdtcbWLCgkqNw6eN-gk8" name="Redux">
     <mxGraphModel dx="1249" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,12 +23,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="w3rP8FqStbUfqLsVtOwx" name="Redux Cycle">
-    <mxGraphModel dx="1442" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1442" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MzOVjt-uQn520o_3X2hy-1" value="Redux Cycle" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="380" y="40" width="200" height="60" as="geometry" />
+        <mxCell id="MzOVjt-uQn520o_3X2hy-1" value="&lt;b&gt;Redux Cycle&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-20" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MzOVjt-uQn520o_3X2hy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="1" source="MzOVjt-uQn520o_3X2hy-2" target="MzOVjt-uQn520o_3X2hy-3">
           <mxGeometry relative="1" as="geometry" />
@@ -36,8 +36,8 @@
         <mxCell id="MzOVjt-uQn520o_3X2hy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;shape=flexArrow;width=13.846153846153845;startSize=3.6692307692307686;endSize=3.6692307692307686;" edge="1" parent="1" source="MzOVjt-uQn520o_3X2hy-2" target="MzOVjt-uQn520o_3X2hy-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MzOVjt-uQn520o_3X2hy-2" value="Action Creator" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="20" y="320" width="150" height="60" as="geometry" />
+        <mxCell id="MzOVjt-uQn520o_3X2hy-2" value="&lt;b&gt;Action Creator&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="20" y="320" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MzOVjt-uQn520o_3X2hy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" edge="1" parent="1" source="MzOVjt-uQn520o_3X2hy-3" target="MzOVjt-uQn520o_3X2hy-4">
           <mxGeometry relative="1" as="geometry" />
@@ -45,29 +45,47 @@
         <mxCell id="MzOVjt-uQn520o_3X2hy-16" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" edge="1" parent="1" source="MzOVjt-uQn520o_3X2hy-3" target="MzOVjt-uQn520o_3X2hy-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MzOVjt-uQn520o_3X2hy-3" value="Action" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="190" y="320" width="150" height="60" as="geometry" />
+        <mxCell id="MzOVjt-uQn520o_3X2hy-3" value="&lt;b&gt;Action&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MzOVjt-uQn520o_3X2hy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" edge="1" parent="1" source="MzOVjt-uQn520o_3X2hy-4" target="MzOVjt-uQn520o_3X2hy-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MzOVjt-uQn520o_3X2hy-4" value="Dispatch" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="360" y="320" width="150" height="60" as="geometry" />
+        <mxCell id="MzOVjt-uQn520o_3X2hy-22" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" edge="1" parent="1" source="MzOVjt-uQn520o_3X2hy-4" target="MzOVjt-uQn520o_3X2hy-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzOVjt-uQn520o_3X2hy-4" value="&lt;b&gt;Dispatch&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="385" y="320" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MzOVjt-uQn520o_3X2hy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" edge="1" parent="1" source="MzOVjt-uQn520o_3X2hy-8" target="MzOVjt-uQn520o_3X2hy-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MzOVjt-uQn520o_3X2hy-8" value="Reducers" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="530" y="320" width="150" height="60" as="geometry" />
+        <mxCell id="MzOVjt-uQn520o_3X2hy-18" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" edge="1" parent="1" source="MzOVjt-uQn520o_3X2hy-8" target="MzOVjt-uQn520o_3X2hy-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MzOVjt-uQn520o_3X2hy-9" value="State" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="700" y="320" width="150" height="60" as="geometry" />
+        <mxCell id="MzOVjt-uQn520o_3X2hy-8" value="&lt;b&gt;Reducers&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MzOVjt-uQn520o_3X2hy-24" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" edge="1" parent="1" source="MzOVjt-uQn520o_3X2hy-9" target="MzOVjt-uQn520o_3X2hy-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MzOVjt-uQn520o_3X2hy-9" value="&lt;b&gt;State&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MzOVjt-uQn520o_3X2hy-12" value="Action creator is a function which returns an object containing action" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="20" y="440" width="150" height="180" as="geometry" />
         </mxCell>
         <mxCell id="MzOVjt-uQn520o_3X2hy-15" value="Action is an object created inside action creator and has 2 properties&lt;br&gt;{type:&quot;&quot;, payload:&quot;&quot;}" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="90" y="110" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MzOVjt-uQn520o_3X2hy-17" value="Reducer function is to filter data based on the action.&lt;br&gt;takes two parameters&lt;br&gt;reducer=(oldstatedate, action)=&amp;gt;{}" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="545" y="110" width="335" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MzOVjt-uQn520o_3X2hy-21" value="Dispatch is the function which receives the action and pass it on to particular reducers function" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="MzOVjt-uQn520o_3X2hy-23" value="At the end the state gets updated according to the action and reducer function." style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="945" y="320" width="205" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
