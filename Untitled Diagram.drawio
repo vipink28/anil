@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T02:37:05.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="Ey-5mi25-1b0Jmdr1sWm" version="18.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-05-21T02:43:20.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="Acb4rZNpPxOBMsReqoeQ" version="18.1.1" type="github" pages="4">
   <diagram id="KdtcbWLCgkqNw6eN-gk8" name="Redux">
     <mxGraphModel dx="1249" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -91,6 +91,55 @@
     </mxGraphModel>
   </diagram>
   <diagram id="z4WvSQCIb7n-Meyrqu8q" name="Integrating with Redux in React">
+    <mxGraphModel dx="1562" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vqSnqEki14kJOeQ33iq0-1" value="&lt;b&gt;Integrating Redux in React&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="286" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="1" source="vqSnqEki14kJOeQ33iq0-2" target="vqSnqEki14kJOeQ33iq0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-2" value="&lt;b&gt;React&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="1" source="vqSnqEki14kJOeQ33iq0-3" target="vqSnqEki14kJOeQ33iq0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="1" source="vqSnqEki14kJOeQ33iq0-3" target="vqSnqEki14kJOeQ33iq0-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" edge="1" parent="1" source="vqSnqEki14kJOeQ33iq0-3" target="vqSnqEki14kJOeQ33iq0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-3" value="&lt;b&gt;React-Redux&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=21;" edge="1" parent="1" source="vqSnqEki14kJOeQ33iq0-4" target="vqSnqEki14kJOeQ33iq0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;fontSize=21;" edge="1" parent="1" source="vqSnqEki14kJOeQ33iq0-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="779.666666666667" y="330.33333333333337" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=21;" edge="1" parent="1" source="vqSnqEki14kJOeQ33iq0-4" target="vqSnqEki14kJOeQ33iq0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-4" value="&lt;b&gt;Redux&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-10" value="npm install --save react-redux" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="285" y="410" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vqSnqEki14kJOeQ33iq0-13" value="npm install --save redux" style="whiteSpace=wrap;html=1;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="700" y="410" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GK1e0IF6pb4K6u0qo-xt" name="Basic Application with Redux">
     <mxGraphModel dx="1874" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
